@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatter - A new era of chatting</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./login.css" />
+    <link rel="stylesheet" type=" text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
+  </head>
+  <body>
+    <div class="parent-container">
+      <div class="login-form">
+        <h3>Chatter- A new era of chatting</h3>
+        <form class="form">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            class="username"
+            id="username"
+            placeholder="Enter your username here..."
+            autocomplete="off"
+          />
+          <button type="submit" class="connect-btn">
+            Connect me
+            <i class="bi bi-arrow-right-circle-fill arrow-icon"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="chat-container displayNone">
+      <div class="active-users-sidebar">
+        <div class="search-bar">
+          <form id="search-user">
+            <span class="search-icon"><i class="bi bi-search"></i></span>
+            <input
+              type="text"
+              id="search-bar-input"
+              placeholder="Search..."
+              class="search-bar-input"
+            />
+          </form>
+        </div>
+
+        <div class="users-section">
+          <div class="user-div">
+            <img
+              src="https://randomuser.me/api/portraits/women/44.jpg"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Gina</span>
+                <span class="msg">How are you?</span>
+              </div>
+              <div class="active-time">10:15 am</div>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://randomuser.me/api/portraits/women/84.jpg"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Issabella</span>
+                <span class="msg">Can you help me with the report?</span>
+              </div>
+              <div class="active-time">10:15 am</div>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/portrait-woman-visiting-luxurious-city-dubai_23-2151328615.jpg?w=900"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Stacy</span>
+                <span class="msg">Nice</span>
+              </div>
+              <div class="active-time">10:15 am</div>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="msg">Can you help me with the report?</span>
+              </div>
+              <div class="active-time">10:15 am</div>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/view-woman-holding-cup-coffee_23-2150698759.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Kate</span>
+                <span class="msg">Let's catch up soon!</span>
+              </div>
+              <div class="active-time">Yesterday</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-section">
+        <div class="user-status">Gina</div>
+
+        <div class="message-display">
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/view-woman-holding-cup-coffee_23-2150698759.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Kate</span>
+                <div class="active-time">Yesterday</div>
+              </div>
+              <span class="msg"
+                >Let's catch up soon! Hope you dont mind to help me in the
+                project ?</span
+              >
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <div class="active-time">Yesterday</div>
+              </div>
+              <span class="msg"
+                >Let's catch up soon! Hope you dont mind to help me in the
+                project ?</span
+              >
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/view-woman-holding-cup-coffee_23-2150698759.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Kate</span>
+                <div class="active-time">Yesterday</div>
+              </div>
+              <span class="msg"
+                >Let's catch up soon! Hope you dont mind to help me in the
+                project ?</span
+              >
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="active-time">Yesterday</span>
+              </div>
+              <span class="msg"
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </span>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="active-time">Yesterday</span>
+              </div>
+              <span class="msg"
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </span>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="active-time">Yesterday</span>
+              </div>
+              <span class="msg"
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </span>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="active-time">Yesterday</span>
+              </div>
+              <span class="msg"
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </span>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="active-time">Yesterday</span>
+              </div>
+              <span class="msg"
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </span>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="active-time">Yesterday</span>
+              </div>
+              <span class="msg"
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </span>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="active-time">Yesterday</span>
+              </div>
+              <span class="msg"
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </span>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="active-time">Yesterday</span>
+              </div>
+              <span class="msg"
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </span>
+            </div>
+          </div>
+
+          <div class="user-div">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-beautiful-girl-portrait_23-2150799919.jpg?w=740"
+              alt=""
+            />
+
+            <div class="user-details">
+              <div class="username">
+                <span class="name">Piko</span>
+                <span class="active-time">Yesterday</span>
+              </div>
+              <span class="msg"
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also
+                the leap into electronic typesetting, remaining essentially
+                unchanged.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="message-input">
+          <div class="msg-from-container">
+            <form class="msg-form">
+              <input
+                class="msg-typing-place"
+                type="text"
+                id="msg-typing-place"
+                placeholder="Type a message..."
+              />
+              <button type="submit" class="send-button">
+                <i class="bi bi-arrow-right-circle-fill arrow-icon"></i>Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
